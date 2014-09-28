@@ -505,7 +505,7 @@
 	#references .headline:after {
 		position: absolute;
 		bottom: 0;
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid #C9FFFC;
 		width: 25px;
 		content: "";
 	}
@@ -516,7 +516,7 @@
 	#references .headline p {
 		top: auto;
 		bottom: -30px;
-		color: #fff;
+		color: #C9FFFC;
 	}
 
 	#references .headline p span { background-color: transparent; }
@@ -841,19 +841,30 @@
 	#contact-form textarea {
 		padding: 20px;
 		border: none;
-		border-bottom: 1px solid #fff;
-		color: #fff;
+		border-bottom: 1px solid #C9FFFC;
+		color: #C9FFFC;
 		resize: none;
 	}
 
 	#contact-form input[type="submit"] {
-		border: 1px solid #fff;
+		border: 1px solid #C9FFFC;
 		margin-top: 50px;
 		background-color: transparent;
-		color: #fff;
+		color: #C9FFFC;
+		float: right;
 	}
 
 	#contact-form input[type="submit"]:hover { background-color: #252525; }
+
+	.bx-wrapper .bx-controls-direction a {
+		color: #C9FFFC;
+		display: none;
+	}
+
+	::-webkit-input-placeholder { color: #C9FFFC; }
+	:-moz-placeholder { /* Firefox 18- */ color: #C9FFFC; }
+	::-moz-placeholder { /* Firefox 19+ */ color: #C9FFFC; }
+	:-ms-input-placeholder { color: #C9FFFC; }
 
 /* ==========================================================================
    #Responsive
