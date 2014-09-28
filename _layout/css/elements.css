@@ -843,7 +843,7 @@
 	.parallax a.accordion-item-toggle,
 	.parallax a.toggle-item-toggle,
 	.parallax .tabs-container .tabs-menu li a,
-	.parallax .vertical-tabs-container .tabs-menu li a { color: #D8F2F1; }
+	.parallax .vertical-tabs-container .tabs-menu li a { color: #C9FFFC; }
 
 	.parallax .headline,
 	.parallax .pricing-table,
@@ -851,7 +851,7 @@
 	.parallax .tabs-container .tabs-menu li a,
 	.parallax .tabs-container .tabs,
 	.parallax .vertical-tabs-container,
-	.parallax .testimonial blockquote { border-color: #fff; }
+	.parallax .testimonial blockquote { border-color: #C9FFFC; }
 
 	.parallax .tabs-container .tabs-menu li a,
 	.parallax .vertical-tabs-container,
@@ -859,30 +859,30 @@
 	.parallax .vertical-tabs-container .tabs-menu li a { background-color: transparent; }
 
 	.parallax .table-bordered td,
-	.parallax .tabs-container .tabs-menu li:first-child a { border-left-color: #fff; }
+	.parallax .tabs-container .tabs-menu li:first-child a { border-left-color: #C9FFFC; }
 
-	.parallax .table-bordered th:first-child { border-left: 1px solid #fff; }
+	.parallax .table-bordered th:first-child { border-left: 1px solid #C9FFFC; }
 
 	.parallax table th,
-	.parallax table td { border-top-color: #fff; }
+	.parallax table td { border-top-color: #C9FFFC; }
 
 	.parallax .pricing-table:hover { background-color: rgba(0, 0, 0, 0.5); }
 
 	.parallax abbr[title],
-	.parallax .process-builder ul:before { border-bottom-color: #fff; }
+	.parallax .process-builder ul:before { border-bottom-color: #C9FFFC; }
 
 	.parallax .accordion-item-toggle,
-	.parallax .toggle-item-toggle { border-color: #fff; }
+	.parallax .toggle-item-toggle { border-color: #C9FFFC; }
 
 	.process-builder ul li i { color: #252525; }
 
-	.parallax .vertical-tabs-container .tabs-menu { border-right-color: #fff; }
+	.parallax .vertical-tabs-container .tabs-menu { border-right-color: #C9FFFC; }
 
 	.parallax .vertical-tabs-container .tabs-menu li a {
-		border-bottom-color: #fff;
-		border-right-color: #fff;
+		border-bottom-color: #C9FFFC;
+		border-right-color: #C9FFFC;
 	}
-	.parallax .tabs-container .tabs-menu { border-bottom-color: #fff; }
+	.parallax .tabs-container .tabs-menu { border-bottom-color: #C9FFFC; }
 
 	/*
 	 * 1. added this because adding position: relative; to .parallax breaks parallax backgrounds in chrome
@@ -929,8 +929,8 @@
 	.parallax.full-screen .headline:after {
 		position: absolute;
 		bottom: 0;
-		border-bottom: 1px solid #fff;
-		width: 75px;
+		border-bottom: 1px solid #C9FFFC;
+		width: 125px;
 		content: "";
 	}
 
@@ -946,7 +946,7 @@
 	.parallax.full-screen .headline p {
 		top : auto;
 		bottom: -30px;
-		color: #fff;
+		color: #C9FFFC;
 		font-size: 18px;
 	}
 
@@ -961,10 +961,10 @@
 		display: block;
 		width: 48px;
 		height: 48px;
-		border: 1px solid #fff;
+		border: 1px solid #C9FFFC;
 		/* border-radius: 50%; */
 		margin: 0 auto;
-		color: #fff;
+		color: #C9FFFC;
 		text-align: center;
 		text-decoration: none;
 	}
