@@ -857,6 +857,12 @@
 		display: none;
 	}
 
+	.download-link a {
+		color: #c9fffc;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
 	::-webkit-input-placeholder { color: #C9FFFC; }
 	:-moz-placeholder { /* Firefox 18- */ color: #C9FFFC; }
 	::-moz-placeholder { /* Firefox 19+ */ color: #C9FFFC; }
